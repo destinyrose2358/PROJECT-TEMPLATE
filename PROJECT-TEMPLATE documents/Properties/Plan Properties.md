@@ -1,0 +1,4 @@
+---
+PROP: 
+Note Type: "[[Plan]]"
+---

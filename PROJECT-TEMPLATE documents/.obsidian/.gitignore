@@ -1,0 +1,5 @@
+workspace.json
+plugins/**
+!plugins/**/
+!plugins/**/*.json
+plugins/**/manifest.json
