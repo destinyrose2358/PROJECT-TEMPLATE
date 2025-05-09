@@ -1,3 +1,0 @@
-## Description
-## Features
-## New Technology

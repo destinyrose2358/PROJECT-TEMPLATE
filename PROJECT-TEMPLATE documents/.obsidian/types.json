@@ -1,0 +1,21 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Sub-Feature": "multitext",
+    "Version Status": "text",
+    "Feature Type": "text",
+    "Planned Feature": "multitext",
+    "Revision Of": "text",
+    "Completed Feature": "multitext",
+    "Delayed Feature": "multitext",
+    "Developing Feature": "multitext",
+    "Blocked Feature": "text",
+    "Resolved Blocker": "multitext",
+    "Current Blocker": "multitext",
+    "Postponed Blocker": "multitext",
+    "Blocker Status": "text",
+    "Feature Status": "text"
+  }
+}

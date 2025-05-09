@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "9db5711ce6713245",
+    "type": "split",
+    "children": [
+      {
+        "id": "834b96b92c19cbe4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8980fd92672b4f9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dd02b086de6611d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8c174fcda18023b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5bb359568e637db",
+    "type": "split",
+    "children": [
+      {
+        "id": "b635e0b613181186",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78b980db96ca230a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "37ad5c6f01577c13",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"UNREVIEWED\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "635639857d436f8d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5
+  },
+  "right": {
+    "id": "0d9f02f772261676",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb163b99e46759e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f91002b41132f52",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "plans/Plans Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Plans Overview"
+            }
+          },
+          {
+            "id": "d7a20e14bff9f90f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1a557eb87fcc5e5e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c265cbef552fe020",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "7bbe8b4ba5e0eb6a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b8c174fcda18023b",
+  "lastOpenFiles": [
+    "Templates/Feature/Feature Revision Template.md",
+    "Templates/_Version Template_/{VERSION NAME}.md",
+    "Templates/_Version Template_/{VERSION NAME} Plan.md",
+    "Templates/_Version Template_/{VERSION NAME} Changelog.md",
+    "Templates/_Version Template_/Blockers/{VERSION NAME} Blockers.md",
+    "Templates/Feature/_Feature Template_.md",
+    "Templates/Feature/Basic Feature Template.md",
+    "Templates/Feature",
+    "Templates/Blocker Template.md",
+    "Properties/Version Properties.md",
+    "Properties/Plan Properties.md",
+    "Properties/Feature Properties.md",
+    "Properties/Blocker Properties.md",
+    "Properties",
+    "Ideas/Ideas.md",
+    "Ideas",
+    "Versions/MVP/MVP.md",
+    "Versions/MVP/MVP Plan.md",
+    "Versions/MVP/MVP Changelog.md",
+    "Versions/MVP/Blockers/MVP Blockers.md",
+    "plans/Plans Overview.md",
+    "plans/MVP Plans.md",
+    "plans/Ideas.md",
+    "plans",
+    "changes/MVP Changelog.md",
+    "changes",
+    "Versions/MVP/Features/Delayed",
+    "Versions/MVP/Features/Blocked",
+    "Versions/MVP/Features/Completed",
+    "Versions/MVP/Features/Developing",
+    "Versions/MVP/Features/Untitled.md",
+    "Versions/MVP/Features/Planned",
+    "Plan.md",
+    "Versions/MVP/MVP Plans.md",
+    "Versions/V1.0/V1.0.md"
+  ]
+}

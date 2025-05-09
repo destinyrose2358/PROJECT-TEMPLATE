@@ -1,1 +1,0 @@
-These are ideas that haven't been implemented yet.
