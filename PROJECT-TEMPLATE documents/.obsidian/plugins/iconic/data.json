@@ -1,0 +1,472 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {},
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "4oUyC",
+      "name": "Version Properties",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Version]]"
+        },
+        {
+          "source": "property:PROP",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-monitor-up",
+      "color": "pink"
+    },
+    {
+      "id": "iUpkn",
+      "name": "Changelog Properties",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Changelog]]"
+        },
+        {
+          "source": "property:PROP",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-monitor-cog",
+      "color": "pink"
+    },
+    {
+      "id": "EWafM",
+      "name": "Plan Properties",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Plan]]"
+        },
+        {
+          "source": "property:PROP",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-newspaper",
+      "color": "pink"
+    },
+    {
+      "id": "0O5Eq",
+      "name": "Feature Properties",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Feature]]"
+        },
+        {
+          "source": "property:PROP",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-plus",
+      "color": "pink"
+    },
+    {
+      "id": "rpxNP",
+      "name": "Blockers Properties",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Blockers]]"
+        },
+        {
+          "source": "property:PROP",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file-cog",
+      "color": "pink"
+    },
+    {
+      "id": "XJWAL",
+      "name": "Blocker Properties",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Blocker]]"
+        },
+        {
+          "source": "property:PROP",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-wrench",
+      "color": "pink"
+    },
+    {
+      "id": "cdgvA",
+      "name": "Complete Version",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Version]]"
+        },
+        {
+          "source": "property:Version Status",
+          "operator": "is",
+          "value": "[[Complete]]"
+        },
+        {
+          "source": "property:Changelog",
+          "operator": "hasValue"
+        },
+        {
+          "source": "property:Plan",
+          "operator": "hasValue"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-monitor-up",
+      "color": "green"
+    },
+    {
+      "id": "4z8ii",
+      "name": "Version",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Version]]"
+        },
+        {
+          "source": "property:Version Status",
+          "operator": "hasValue"
+        },
+        {
+          "source": "property:Changelog",
+          "operator": "hasValue"
+        },
+        {
+          "source": "property:Plan",
+          "operator": "hasValue"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-monitor-up",
+      "color": "blue"
+    },
+    {
+      "id": "7OuBV",
+      "name": "Invalid Version",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Version]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-monitor-up",
+      "color": "red"
+    },
+    {
+      "id": "orRfu",
+      "name": "Changelog",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Changelog]]"
+        },
+        {
+          "source": "property:Completed Feature",
+          "operator": "hasProperty"
+        },
+        {
+          "source": "property:Delayed Feature",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-monitor-cog",
+      "color": "blue"
+    },
+    {
+      "id": "pC3Pm",
+      "name": "Invalid Changelog",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Changelog]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-monitor-cog",
+      "color": "red"
+    },
+    {
+      "id": "G9VKF",
+      "name": "Plan",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Plan]]"
+        },
+        {
+          "source": "property:Planned Feature",
+          "operator": "hasProperty"
+        },
+        {
+          "source": "property:Developing Feature",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-newspaper",
+      "color": "blue"
+    },
+    {
+      "id": "rxIII",
+      "name": "Invalid Plan",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Plan]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-newspaper",
+      "color": "red"
+    },
+    {
+      "id": "OUm1K",
+      "name": "Blockers",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Blockers]]"
+        },
+        {
+          "source": "property:Current Blocker",
+          "operator": "hasProperty"
+        },
+        {
+          "source": "property:Resolved Blocker",
+          "operator": "hasProperty"
+        },
+        {
+          "source": "property:Postponed Blocker",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file-cog",
+      "color": "blue"
+    },
+    {
+      "id": "qNDZP",
+      "name": "Invalid Blockers",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Blockers]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file-cog",
+      "color": "red"
+    },
+    {
+      "id": "yUeCo",
+      "name": "Basic Feature",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Feature]]"
+        },
+        {
+          "source": "property:Feature Status",
+          "operator": "hasValue"
+        },
+        {
+          "source": "property:Feature Type",
+          "operator": "is",
+          "value": "[[New]]"
+        },
+        {
+          "source": "property:Sub-Feature",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-plus",
+      "color": "blue"
+    },
+    {
+      "id": "Cf95a",
+      "name": "Invalid Basic Feature",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Feature]]"
+        },
+        {
+          "source": "property:Feature Type",
+          "operator": "is",
+          "value": "[[New]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-plus",
+      "color": "red"
+    },
+    {
+      "id": "UcRao",
+      "name": "Feature Revision",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Feature]]"
+        },
+        {
+          "source": "property:Feature Type",
+          "operator": "is",
+          "value": "[[Revision]]"
+        },
+        {
+          "source": "property:Feature Status",
+          "operator": "hasProperty"
+        },
+        {
+          "source": "property:Revision Of",
+          "operator": "hasValue"
+        },
+        {
+          "source": "property:Sub-Feature",
+          "operator": "hasProperty"
+        }
+      ],
+      "enabled": true,
+      "color": "blue",
+      "icon": "lucide-plus-circle"
+    },
+    {
+      "id": "3BcZS",
+      "name": "Invalid Feature Revision",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Feature]]"
+        },
+        {
+          "source": "property:Feature Type",
+          "operator": "is",
+          "value": "[[Revision]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-plus-circle",
+      "color": "red"
+    },
+    {
+      "id": "cRTjP",
+      "name": "Blocker",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Blocker]]"
+        },
+        {
+          "source": "property:Blocker Status",
+          "operator": "hasValue"
+        },
+        {
+          "source": "property:Blocked Feature",
+          "operator": "hasValue"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-wrench",
+      "color": "blue"
+    },
+    {
+      "id": "XyRT2",
+      "name": "Invalid Blocker",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:Note Type",
+          "operator": "is",
+          "value": "[[Blocker]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-wrench",
+      "color": "red"
+    }
+  ],
+  "folderRules": []
+}
